@@ -1,0 +1,42 @@
+.text-alignment {
+    display: flex;
+}
+
+.event-image-section {
+    display: block;
+}
+
+@media (max-width: 1140px) {
+
+    .event-image-section-inner img {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 899px) {
+    .event-image-section {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        padding: 2rem 0rem;
+        gap: 1rem;
+    }
+
+    .event-image-section-inner img {
+        width: 100%; 
+    }
+
+}
+
+@media (max-width: 500px) {
+    .event-image-section {
+
+        padding: 2rem 0rem;
+    }
+
+    .event-image-section-inner img {
+        width: 80%; 
+    }
+
+}

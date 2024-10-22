@@ -1,0 +1,29 @@
+.contact-item h4 {
+  font-size: 1.2rem;
+  color: #244E3C;
+  margin-top: 3%;
+}
+
+.contact-item h4 span {
+  color: #898D8E;
+  text-decoration: none;
+
+}
+
+
+.contact_gap {
+  padding-top: 20px;
+}
+
+.custom-label .MuiFormLabel-root {
+  /* color: #D9D626; */
+  /* Change this to your desired color */
+}
+
+@media (max-width: 899px) {
+
+  .contact-container-section {
+    margin-top: 20%;
+  }
+
+}

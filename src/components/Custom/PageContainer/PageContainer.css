@@ -1,0 +1,84 @@
+.page {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.page-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    background-color: #F6EFD3;
+    padding-top: 40px;
+
+}
+
+.top-image-page-container {
+    height: 12vh;
+    background-image: url(../../../assests/sky_top.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+}
+
+
+
+.middle-page-container {
+    padding: 40px;
+    padding-bottom: 250px;
+}
+
+.middle-page-container .birthday-title {
+    font-size: 2.5rem;
+    color: #88A600;
+    letter-spacing: 10px;
+    font-weight: 900;
+}
+
+.middle-page-container .birthday-date {
+    font-size: 2.5rem;
+    padding-top: 20px;
+    color: #EE872C;
+}
+
+
+.bottom-image-page-container {
+    background-image: url(../../../assests/page_bottom_bar.svg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    width: 100%;
+}
+
+
+
+
+.title .heading {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 4rem;
+}
+
+@media (max-width: 1900px) {
+    .top-image-page-container {
+        background-size: contain;
+    }
+
+    .bottom-image-page-container {
+        background-size: contain;
+    }
+
+    .middle-page-container {
+        padding: 0;
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 899px) {
+    .page-container {
+        max-width: 95%;
+    }
+}

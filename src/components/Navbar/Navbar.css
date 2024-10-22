@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    background-image: url(../../assests/top_grass.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 12rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+
+.nav-item-desktop ul {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+
+.nav-item-mobile {
+    display: none;
+}
+
+.nav-item-desktop ul li {
+    padding-top: 3rem;
+    list-style: none;
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mobile-menu-icon {
+    margin-right: 0.5rem;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.hemburger-icon {
+    display: none;
+    
+}
+
+
+@media (max-width: 1900px) {
+    .nav-bar {
+        background-size: cover;
+    }
+
+    .nav-item-desktop ul li {
+        padding-top: 1.5rem;
+        font-size: 1rem;
+
+    }
+}
+
+
+@media (max-width: 1300px) {
+    .nav-bar {
+        height: 12vh;
+        background-size: cover;
+    }
+
+}
+
+@media (max-width: 899px) {
+    .nav-item-desktop {
+        display: none;
+    }
+
+    .hemburger-icon {
+        display: block;
+        float: right;
+    }
+
+    .nav-item-mobile {
+        display: block;
+        margin-bottom: 10%;
+    }
+
+    .nav-item-mobile ul{
+        position: absolute;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        width: 100%;
+        margin-bottom: 20%;
+    }
+
+    .nav-item-mobile ul li {
+        display: inline;
+        background-color: #88A600;
+        padding: 1rem;
+        list-style: none;
+        font-size: 1.2rem;
+        color: #ffffff;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+}

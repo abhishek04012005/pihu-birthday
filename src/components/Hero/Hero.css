@@ -1,0 +1,204 @@
+.hero {
+    margin-top: 20vh;
+    padding: 0;
+    list-style: none;
+}
+
+.hero-container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    background-color: #F6EFD3;
+    padding-top: 30px;
+}
+
+
+
+.top-image-hero {
+    height: 20vh;
+    background-image: url(../../assests/sky_top.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.hero-left-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-right-balloon img {
+    transform: scaleX(-1);
+}
+
+
+.hero-monkey-image {
+    position: relative;
+}
+
+.hero-btn {
+    /* padding-bottom: 200px; */
+}
+
+
+.countdown-btn {
+    padding: 50px 0px;
+}
+
+.hero-middle-container {
+    padding-top: 0px;
+    padding-bottom: 200px;
+}
+
+.hero-middle-container .birthday-title {
+    font-size: 2.5rem;
+    color: #88A600;
+    letter-spacing: 10px;
+    font-weight: 900;
+}
+
+.hero-middle-container .birthday-date {
+    font-size: 2.5rem;
+    padding-top: 20px;
+    color: #EE872C;
+}
+
+
+.bottom-image-hero {
+    background-image: url(../../assests/hero_bottom1.svg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+@media (max-width: 1900px) {
+    .top-image-hero {
+        background-size: contain;
+    }
+
+    .bottom-image-hero {
+        background-size: contain;
+    }
+}
+
+@media (max-width: 1300px) {
+
+
+
+    .hero-middle-container .birthday-title {
+        font-size: 2rem;
+        letter-spacing: 10px;
+    }
+
+    .hero-middle-container .birthday-date {
+        font-size: 2rem;
+    }
+
+    .photo-frame-responsive img {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 899px) {
+
+    .hero {
+        margin-top: 15vh;
+    }
+
+    .hero-container {
+        max-width: 95%;
+    }
+
+    .top-image-hero {
+        height: 15vh;
+    }
+    .hero-middle-container .birthday-title {
+        font-size: 2rem;
+        letter-spacing: 10px;
+    }
+
+    .hero-middle-container .birthday-date {
+        font-size: 2rem;
+    }
+
+    .photo-frame-responsive img {
+        width: auto;
+    }
+
+    .hero-btn {
+        padding-bottom: 100px;
+    }
+
+    .hero-middle-container .birthday-title {
+        padding-top: 30px;
+    }
+  
+}
+
+@media (max-width: 500px) {
+
+
+
+    .top-image-hero {
+        height: 10vh;
+    }
+    .hero-middle-container .birthday-title {
+        font-size: 1.5rem;
+        letter-spacing: 10px;
+    }
+
+    .hero-middle-container .birthday-date {
+        font-size: 1.5rem;
+    }
+
+    .photo-frame-responsive img {
+        width: 60%;
+    }
+
+    .hero-btn {
+        padding-bottom: 100px;
+    }
+
+    .countdown-btn {
+        padding: 20px 20px;
+    }
+
+    .hero-left-balloon img {
+        width: 100%;
+    }
+
+    .hero-right-balloon img {
+        width: 100%;
+    }
+  
+}
+
+@media (max-width: 400px) {
+
+
+    .top-image-hero {
+        height: 10vh;
+    }
+    .hero-middle-container .birthday-title {
+        font-size: 1.4rem;
+        letter-spacing: 10px;
+    }
+
+    .hero-middle-container .birthday-date {
+        font-size: 1.4rem;
+    }
+
+    .photo-frame-responsive img {
+        width: 70%;
+    }
+
+    .hero-btn {
+        padding-bottom: 100px;
+    }
+
+    .countdown-btn {
+        padding: 20px 20px;
+    }
+  
+}
